@@ -14,7 +14,6 @@ namespace ProductsServer.Infrastructure.Entities
         public int Id { get; set; }
         public string Name { get; set; }
         public decimal Price { get; set; }
-
         // Foreign Key
         public int CategoryId { get; set; }
         public ProductCategoryEntity ProductCategory { get; set; }
